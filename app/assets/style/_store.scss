@@ -1,0 +1,53 @@
+.store-tittle-box{
+  margin-bottom: 41px;
+  display: flex;
+  select{
+    margin-left: 28px;
+    opacity: 0.5;
+    width: 23%;
+    option{
+      font-size: 18px;
+      line-height: 26px;
+      
+    }
+  }
+
+
+}
+.store-content{
+  margin: 0 -24px 32px -24px;
+}
+
+.store-content-box{
+  width: 32%;
+  padding-left: 24px;
+  margin-bottom: 48px;
+  
+  h4{
+    border: solid 1px #00000020;
+    padding: 8px 24px;
+  }
+  ul{
+    padding:16px 0 8px 24px;
+    border: solid 1px #00000020;
+  }
+  bottom{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 16px 0;
+  }
+  a:hover{
+    opacity: 0.7;
+    transform: scale(1.03);
+    
+  }
+}
+.store-content-box-icon{
+  
+  margin-bottom: 8px;
+  i{
+    padding-right: 8px;
+  }
+}

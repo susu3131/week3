@@ -1,0 +1,190 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+body{
+  font-family:"Roboto",'Noto Sans TC', sans-serif,serif;
+  
+}
+
+// a連結設定& 動畫
+
+a{
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+@keyframes opacity{
+  0%{
+    opacity: 0.5;
+  }
+  100%{
+    
+    opacity: 1;
+  }
+}	
+@keyframes text{
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: scale(1.5);
+    color: yellow;
+    
+  }
+}
+
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+input{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500 ;
+  font-family:'Noto Sans TC';
+}
+// 字型設定
+
+h1{
+  font-size: 48px;
+  line-height: 72px;
+  font-weight:700 ;
+  border-left:solid 8px #9F1213;
+  margin-top: 96px;
+  margin-bottom: 32px;
+  padding-left: 16px;
+}
+
+h2{
+  font-size: 48px;
+  line-height: 72px;
+}
+
+h3{
+  font-size: 32px;
+  line-height: 48px;
+}
+
+h4,label{
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  
+}
+
+p,li{
+  font-size: 16px;
+  line-height: 24px;
+
+}
+.text{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+// flex設定
+
+.flex{
+  display: flex;
+}
+.flex-jcsb{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-align-c{
+  display: flex;
+  align-items: center;
+}
+
+.flex-justify-c{
+  display: flex;
+  justify-content: center;
+}
+
+.flex-c{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+// header & footer 背景字體設定
+
+.bg-red{
+  background-color: #AA0601;
+  color:white;
+  a{
+    color: white;
+  }
+  
+}
+
+// 網頁尺寸
+.container{
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+// 導覽列
+
+nav{
+  a{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 25px 0;
+  }
+  a:hover{
+    animation: text 0.8s 1; 
+  }
+  li{
+    padding-left: 64px;
+  }
+}
+
+// 換頁按鈕
+
+.page-bottom{
+  margin: 92px auto;
+  width: 33%;
+
+  li{
+    display: block;
+    font-size: 19x;
+    line-height: 29px;
+    
+  }
+  li:first-child,li:last-child{
+    font-size: 19px;
+    line-height: 29px;
+    background: #F2F2F2;
+  }
+  a{
+    padding: 16px;
+    border: #555555 solid 1px;
+  }
+
+  a:hover{
+    background: black;
+    color: white;
+    opacity: 0.8;
+    transition-duration : 0.5s;
+  }
+}
+

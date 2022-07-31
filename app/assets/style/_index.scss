@@ -1,0 +1,49 @@
+.banner{
+  background-image: url(../images/home-header.png);
+  background-size:cover;
+  height: 100vh;
+  color: #650300;
+  h3{
+    font-size: 36px;
+    line-height: 54px;
+  }
+  h1{
+    margin: 0px; padding: 0px;
+    border:0;
+    // 清除本來h1樣式
+    font-size: 64px;
+    line-height: 96px;
+  }
+  .banner-text{
+    text-align: right;
+    margin-right: 312px;
+  }
+  input{
+    background-color: #AA0601;
+    color: white;
+    padding: 6px 12px;
+    border: 0;
+  }
+  
+  input:hover {
+    background:linear-gradient(to bottom, #941b10 20%, #AA0601 100%);
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+  }
+  input:active {
+    position:relative;
+    top:1px;
+}
+}
+
+
+.index-block{
+  background-color: #FBF2F2;
+  h2{
+    font-weight: 700;
+    color: #650300;
+    padding: 80px 0 32px 0; 
+
+  }
+  text-align: center;
+}

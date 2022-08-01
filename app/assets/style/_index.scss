@@ -38,12 +38,141 @@
 
 
 .index-block{
+  text-align: center;
   background-color: #FBF2F2;
   h2{
     font-weight: 700;
     color: #650300;
     padding: 80px 0 32px 0; 
-
   }
+  .index-box{
+    width: 25%;
+    padding-left: 24px;
+    margin-bottom: 80px;
+    h4{
+      
+      margin-bottom: 8px;
+    }
+    img{
+      margin: 0 auto;
+      width: 83px;
+      margin-bottom: 24px;
+    }
+    p{
+      text-align: left;
+    }
+  }
+  .flex-jcsb{
+    margin-left: -24px;
+  }
+}
+
+.index-series{
+  padding: 80px 0;
   text-align: center;
+  h2{
+    font-weight: 700;
+    color:#650300 ;
+    margin-bottom: 48px;
+  }
+  .flex-jcsb{
+    margin-left: -24px;
+  }
+  .index-seriex-box{
+    width: 33%;
+    padding-left: 24px;
+    h2{
+      margin-top: 8px;
+      color: #AA0601;
+      font-weight: 900;
+      font-style: italic;
+    }
+  }
+  .index-seriex-box:hover{
+    opacity: 0.7;
+    transition-duration: 1s;
+  }
+
+}
+
+.index-design{
+  padding: 80px 0;
+  background-image: url(../images/index-bg.png);
+  background-size:cover;
+  text-align: center;
+  h2{
+    color: white;
+    font-weight: 700;
+  }
+  .index-image{
+    width: 50%;
+    h2{
+      padding: 8px auto;
+      font-weight: 900;
+      font-style: italic;
+      color:#AA0601;
+      background: white;
+    }
+  }
+}
+
+
+.index-customer{
+  text-align: center;
+  .flex-jcsb{
+    margin-left: 0;
+  }
+  .index-customer-box{
+    width: 24%;
+    border: #DEE2E6 1px solid;
+    border-radius: 4px 4px 0 0;
+    box-shadow: 0 2px 6px #00000029;
+    text-align: left;
+    .customer-box{
+      padding: 16px;
+      p{
+        margin-bottom: 8px;
+      }
+      .time{
+        margin-bottom: 0px;
+        margin: top 64px; ;
+      }
+      
+    }
+  }
+  .index-customer-box:hover{
+    opacity: 0.7;
+    transition-duration: 1s;
+  }
+}
+
+
+.index-contantus{
+  background: #FBF2F2;
+  text-align: center;
+  padding: 80px 0;
+  .container{
+    width: 50%;
+  
+  h2{
+    margin-bottom: 48px;
+    color: #650300;
+    font-weight: 700;
+  }
+  p{
+    text-align-last: left;
+  }
+  input{
+    padding: 16px 0;
+    width: 65%;
+    color: white;
+    background: #AA0601;
+    border:0;
+  }
+  input:hover {
+    background:linear-gradient(to bottom, #941b10 20%, #AA0601 100%);
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+  }
+}
 }

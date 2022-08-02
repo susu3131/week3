@@ -389,33 +389,65 @@ nav li {
 
 .index-contantus {
   background: #FBF2F2;
-  text-align: center;
   padding: 80px 0; }
+  .index-contantus label {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400; }
+  .index-contantus .check {
+    -webkit-appearance: checkbox;
+       -moz-appearance: checkbox;
+            appearance: checkbox;
+    margin-bottom: 48px; }
   .index-contantus .container {
     width: 50%; }
     .index-contantus .container h2 {
+      text-align: center;
       margin-bottom: 48px;
       color: #650300;
       font-weight: 700; }
     .index-contantus .container p {
-      -moz-text-align-last: left;
-           text-align-last: left; }
-    .index-contantus .container input {
-      padding: 16px 0;
-      width: 65%;
-      color: white;
-      background: #AA0601;
-      border: 0; }
-    .index-contantus .container input:hover {
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #941b10), to(#AA0601));
-      background: -o-linear-gradient(top, #941b10 20%, #AA0601 100%);
-      background: linear-gradient(to bottom, #941b10 20%, #AA0601 100%);
-      -webkit-transform: scale(1.1);
-          -ms-transform: scale(1.1);
-              transform: scale(1.1);
-      -webkit-transition-duration: 0.5s;
-           -o-transition-duration: 0.5s;
-              transition-duration: 0.5s; }
+      text-align: left; }
+    .index-contantus .container .text {
+      margin-bottom: 24px; }
+    .index-contantus .container a {
+      text-align: center; }
+      .index-contantus .container a input {
+        padding: 16px 0;
+        width: 65%;
+        color: white;
+        background: #AA0601;
+        border: 0; }
+      .index-contantus .container a input:hover {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #941b10), to(#AA0601));
+        background: -o-linear-gradient(top, #941b10 20%, #AA0601 100%);
+        background: linear-gradient(to bottom, #941b10 20%, #AA0601 100%);
+        -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+                transform: scale(1.1);
+        -webkit-transition-duration: 0.5s;
+             -o-transition-duration: 0.5s;
+                transition-duration: 0.5s; }
+
+.index-table {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .index-table input {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 6px 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: rgba(0, 0, 0, 0); }
+  .index-table p {
+    margin-bottom: 8px; }
+  .index-table .index-input {
+    padding-bottom: 106px; }
 
 .series-nav li {
   width: 33%;

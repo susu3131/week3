@@ -3,7 +3,7 @@ block navbar
     - var path = 'index.html'
     include layout/navbar.pug
 block content
-    .container
+    .store-taipei-index.container
         .store-tittle
             h1 門市據點
             .store-tittle-box 
@@ -14,22 +14,25 @@ block content
                     option(value="Taichung") 台中市
                     option(value="Kaohsiung") 高雄市
         .flex
-          .store-content-box.store-taipei
+            .store-content-box.store-taipei
                 img(src="./images/store-1.png", alt="")
-                h4 台北中山旗艦店
-                ul
-                    li 
-                        .store-content-box-icon.flex-align-c
-                            i.fa-solid.fa-phone
-                            p 電話：(02)000-1234
-                    li 
-                        .store-content-box-icon.flex-align-c
-                            i.fa-regular.fa-clock
-                            p 營業時間：10:00-21:00
-                    li 
-                        .store-content-box-icon.flex-align-c
-                            i.fa-solid.fa-location-dot
-                            p 地址：台北市中山區南京東路25巷2-1號
-          
-          iframe.store-map(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1519.694444764713!2d121.5277177122304!3d25.052295437474136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9665c221fab%3A0xe3c1d49711f01596!2zMTA0OTHlj7DljJfluILkuK3lsbHljYDljZfkuqzmnbHot6_kuozmrrUx6Jmf!5e0!3m2!1szh-TW!2stw!4v1659270664928!5m2!1szh-TW!2stw"   ) 
+                .store-content-flex
+                    h4 台北中山旗艦店
+                    ul
+                        li 
+                            .store-content-box-icon.flex-align-c
+                                i.fa-solid.fa-phone
+                                p 電話：(02)000-1234
+                        li 
+                            .store-content-box-icon.flex-align-c
+                                i.fa-regular.fa-clock
+                                p 營業時間：10:00-21:00
+                        li 
+                            .store-content-box-icon.flex-align-c
+                                i.fa-solid.fa-location-dot
+                                p 地址：台北市中山區南京東路25巷2-1號
+            iframe.store-map(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1519.694444764713!2d121.5277177122304!3d25.052295437474136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9665c221fab%3A0xe3c1d49711f01596!2zMTA0OTHlj7DljJfluILkuK3lsbHljYDljZfkuqzmnbHot6_kuozmrrUx6Jmf!5e0!3m2!1szh-TW!2stw!4v1659270664928!5m2!1szh-TW!2stw"   ) 
 
+
+block footer
+    include layout/footer.pug

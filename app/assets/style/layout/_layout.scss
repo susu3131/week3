@@ -188,3 +188,9 @@ nav{
   }
 }
 
+// RWD PADDING
+@include ipad{
+  .container{
+    padding: 0 35px;
+  }
+}

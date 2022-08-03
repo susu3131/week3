@@ -109,7 +109,7 @@ gulp.task('deploy', function () {
 //watch
 gulp.task('watch', gulp.parallel('browser-sync', function () {
     gulp.watch('./app/**/*.pug', gulp.series('pug'));
-    gulp.watch('./app/assets/style/*.scss', gulp.series('sass'));
+    gulp.watch('./app/assets/style/**/*.scss', gulp.series('sass'));
     gulp.watch('./app/assets/js/*.js', gulp.series('babel'));
     gulp.watch('./app/sw.js', gulp.series('copyPWA'));
 }))

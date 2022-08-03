@@ -51,3 +51,13 @@
     padding-right: 8px;
   }
 }
+
+// RWD
+@include ipad{
+  
+
+  .store-content-box{
+    width: 50%;
+  }
+  
+}

@@ -4,17 +4,62 @@ header{
   }
 }
 
+// 導覽列
+
+nav{
+  a{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 25px 0;
+  }
+  a:hover{
+    animation: text 0.8s 1; 
+  }
+  li{
+    padding-left: 64px;
+  }
+}
+
+// RWD 
 @include ipad{
   header{
     .container{
       width: 100%;
+      padding: 0 35px;
     }
   }
 }
 
-@include phone{
-  nav{
-    
 
+@include phone{
+  header{
+    .flex-jcsb{
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0px;
+    }
+    li,a{
+      padding: 6px 0;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    img{
+      padding: 12px 0px;
+    }
+  }
+  nav{
+      width: 100%;
+    ul{
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      border-right:1px solid white;
+      li{
+        border-top:1px solid white;
+        border-left:1px solid white;
+        width: 50%;
+      }
+    }
   }
 }

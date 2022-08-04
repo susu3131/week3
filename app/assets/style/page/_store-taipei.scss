@@ -24,7 +24,7 @@
     }
   }
   
-  .store-content-box{
+  .store-taipei{
     width: 100%;
     display: flex;
 
@@ -58,7 +58,6 @@
       border-bottom: 1px solid #00000020;
     }
     
-
   }
   .store-map{
     display: block;
@@ -68,4 +67,23 @@
     width: 100%;
     
   }
+}
+
+
+@include phone{
+  .store-content-box{
+      display: block;
+      img{
+        width: 100%;
+        padding: 0;
+      }
+      .store-content-flex{
+        width: 100%;
+      }
+    }
+  .store-map{
+    height: 35vh;
+  }
+    
+
 }

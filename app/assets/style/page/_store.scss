@@ -54,10 +54,65 @@
 
 // RWD
 @include ipad{
-  
-
+  .store-tittle-box{
+    width: 100%;
+  }
+  .flex-wrap{
+    margin: 0;
+  }
+  .store-content{
+    margin-left: -24px;
+  }
   .store-content-box{
     width: 50%;
+    padding: 0px;
+    padding-left: 24px;
+    
   }
-  
+}
+
+@include ipad{
+  .store-tittle-box{
+    width: 100%;
+  }
+  .flex-wrap{
+    margin: 0;
+  }
+  .store-content{
+    margin-left: -24px;
+  }
+  .store-content-box{
+    width: 50%;
+    padding: 0px;
+    padding-left: 24px;
+    
+  }
+}
+
+@include phone{
+  .store-tittle{
+    h1{
+      font-size: 24px;
+      line-height: 36px;
+      margin: 40px 0px 24px 0;
+    }
+    label{
+      font-size: 16px;
+      width: 30%;
+  }
+  .store-tittle-box{
+    margin-bottom: 31px;
+    select{
+    margin: 0;
+    width: 100%;
+    
+  }
+  }
+}
+  .store-content-box{
+    width: 100%;
+    
+  }
+
+
 }

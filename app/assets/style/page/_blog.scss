@@ -10,6 +10,7 @@
   }
   img{
     width: 49%;
+    object-fit: cover ;
   }
   
 }
@@ -58,18 +59,50 @@
       font-size: 16px;
       line-height: 24px;
     }
-    a{
-      display: none;
-    }
     .flex-jcsb{
       margin-bottom: 0px;
     }
-
+    .blog-content-box{
+      margin-bottom: 24px;
+    }
   }
   .blog-content-box{
     img{
-      width: 48%;
-      
+      width: 50%;
+      background-size:auto;
     }
+  }
+  .blog-content-text{
+    width: 50%;
+    padding-left: 24px;
+    a{
+      color:#555555;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 0px;
+      display: inline;
+    }
+  }
+  .text{
+    text-align: justify
+  }
+}
+
+@include phone{
+  .blog-content{
+    .text{
+      display: none;
+    }
+    .blog-content-box{
+      display: block;
+    }
+    img{
+      width: 100%;
+    }
+  }
+  .blog-content-text{
+    width: 100%;
+    padding: 0px;
+    
   }
 }

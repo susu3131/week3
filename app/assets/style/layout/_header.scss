@@ -2,6 +2,10 @@ header{
   img{
     width: 80px;
   }
+  a:hover{
+    animation: text 1s;
+    color: yellow;
+  }
 }
 
 // 導覽列

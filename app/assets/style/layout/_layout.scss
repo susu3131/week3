@@ -29,7 +29,7 @@ a{
     transform: translateY(0);
   }
   100% {
-    transform: scale(1.5);
+    transform: scale(1.2);
     color: yellow;
     
   }
@@ -144,11 +144,11 @@ p,li{
 
 
 
-// 換頁按鈕
+// button 換頁按鈕
 
 .page-bottom{
   margin: 92px auto;
-  width: 33%;
+  width: 40%;
 
   li{
     display: block;
@@ -171,6 +171,29 @@ p,li{
     color: white;
     opacity: 0.8;
     transition-duration : 0.5s;
+  }
+}
+// button rwd
+@include ipad{
+  .page-bottom{
+    width: 100%;
+  }
+}
+@include phone{
+  .page-bottom{
+    margin: 64px auto;
+    li{
+      font-size: 16x;
+      line-height: 26px;
+      
+    }
+    li:first-child,li:last-child{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    a{
+      padding: 12px;
+    }
   }
 }
 

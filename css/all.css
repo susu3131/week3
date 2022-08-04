@@ -69,8 +69,8 @@ a {
     -webkit-transform: translateY(0);
             transform: translateY(0); }
   100% {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
     color: yellow; } }
 
 @keyframes text {
@@ -78,8 +78,8 @@ a {
     -webkit-transform: translateY(0);
             transform: translateY(0); }
   100% {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
     color: yellow; } }
 
 img {
@@ -200,7 +200,7 @@ p, li {
 
 .page-bottom {
   margin: 92px auto;
-  width: 33%; }
+  width: 40%; }
   .page-bottom li {
     display: block;
     font-size: 19x;
@@ -221,6 +221,22 @@ p, li {
             transition-duration: 0.5s; }
 
 @media (max-width: 992px) {
+  .page-bottom {
+    width: 100%; } }
+
+@media (max-width: 767px) {
+  .page-bottom {
+    margin: 64px auto; }
+    .page-bottom li {
+      font-size: 16x;
+      line-height: 26px; }
+    .page-bottom li:first-child, .page-bottom li:last-child {
+      font-size: 16px;
+      line-height: 26px; }
+    .page-bottom a {
+      padding: 12px; } }
+
+@media (max-width: 992px) {
   .container {
     padding: 0 35px; } }
 
@@ -230,6 +246,11 @@ p, li {
 
 header img {
   width: 80px; }
+
+header a:hover {
+  -webkit-animation: text 1s;
+          animation: text 1s;
+  color: yellow; }
 
 nav a {
   font-size: 20px;
@@ -781,7 +802,9 @@ footer img {
             animation: opacity 1s; }
 
 .blog-content img {
-  width: 49%; }
+  width: 49%;
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 .blog-content-text {
   width: 49%; }
@@ -821,12 +844,35 @@ footer img {
   .blog-content .flex-jcsb h4, .blog-content p {
     font-size: 16px;
     line-height: 24px; }
-  .blog-content a {
-    display: none; }
   .blog-content .flex-jcsb {
     margin-bottom: 0px; }
+  .blog-content .blog-content-box {
+    margin-bottom: 24px; }
   .blog-content-box img {
-    width: 48%; } }
+    width: 50%;
+    background-size: auto; }
+  .blog-content-text {
+    width: 50%;
+    padding-left: 24px; }
+    .blog-content-text a {
+      color: #555555;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 0px;
+      display: inline; }
+  .text {
+    text-align: justify; } }
+
+@media (max-width: 767px) {
+  .blog-content .text {
+    display: none; }
+  .blog-content .blog-content-box {
+    display: block; }
+  .blog-content img {
+    width: 100%; }
+  .blog-content-text {
+    width: 100%;
+    padding: 0px; } }
 
 .contant-tittle {
   padding-bottom: 48px; }

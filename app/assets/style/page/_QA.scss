@@ -16,3 +16,13 @@ padding-bottom: 48px;
   }
 }
 
+@include phone{
+  .contant-tittle{
+    h1{
+      font-size: 24px;
+      line-height: 36px;
+      margin: 40px 0 24px 0;
+    }
+  }
+}
+

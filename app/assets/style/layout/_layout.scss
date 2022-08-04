@@ -180,3 +180,9 @@ p,li{
       padding: 0 35px;
     }
 }
+
+@include phone{
+  .container{
+      padding: 0 13px;
+    }
+}

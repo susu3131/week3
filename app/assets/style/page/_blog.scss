@@ -47,3 +47,29 @@
   }
 }
 
+
+@include ipad{
+  .blog-content{
+    h3{
+      font-size: 24px;
+      line-height: 36px;
+    }
+    .flex-jcsb h4,p{
+      font-size: 16px;
+      line-height: 24px;
+    }
+    a{
+      display: none;
+    }
+    .flex-jcsb{
+      margin-bottom: 0px;
+    }
+
+  }
+  .blog-content-box{
+    img{
+      width: 48%;
+      
+    }
+  }
+}

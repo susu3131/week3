@@ -2,8 +2,9 @@ footer{
   // padding: 60px 0px 32px 0px;
   img{
     max-width: 100%;
-    width: 48px;  
+    width: 48px;
   }
+  
   
 }
 
@@ -48,14 +49,15 @@ footer{
 
 // rwd 
 @include ipad{
-  .footer-box{
-    .flex{
-      width: 77%;  
+  footer {
+    img{
+      width: 40px;
     }
+  }
+  .footer-box{
     .footer-img{
-      width: 25%;
       li{
-        margin: 0px;
+        margin: 0;
         margin-left: 16px;
       }
     }
@@ -63,38 +65,29 @@ footer{
 }
 
 
+
+
+
 // rwd
 @include phone{
   footer{
     .container{
       padding: 24px 16px;
-      
     }
   }
   .footer-none{
     display: none;
   }
   .footer-box{
-    
-    justify-content: start;
     padding: 0px;
     .footer-img{
-      display: flex;
-      position: Relative;
+      justify-content: flex-end;
       width: 100%;
-      @media (max-width:766px) {
-        top:10%; right: -80%;
-      }
-      @media(max-width:530px){
-        top:10%; right: -67%;
-      }
       img{
         width: 24px;
       }
     }
   }
-  
-
   .footer-contant {
     margin-top: -24px;
     padding-bottom: 16px;
@@ -109,35 +102,35 @@ footer{
         line-height: 24px;
       }
     } 
-}
-.footer-copyright{
-  display: block;
-  p{
-    padding-bottom: 8px;
   }
-}
-.footer-copyright-box{
-  padding: 0px;
-  margin-left: -50px;
-  li:first-child{
-    padding-bottom: 8px;
-  }
-  ul{
+  .footer-copyright{
     display: block;
-  }
-  a:hover{
-    animation: text-small 1s;
-  }
-  @keyframes text-small{
-    0% {
-      transform: translateX(0)
-    }
-    100% {
-      transform: translateX(3%);
-      color: yellow;
-      
+    p{
+      padding-bottom: 8px;
     }
   }
-}
+  .footer-copyright-box{
+    padding: 0px;
+    margin-left: -50px;
+    li:first-child{
+      padding-bottom: 8px;
+    }
+    ul{
+      display: block;
+    }
+    a:hover{
+      animation: text-small 1s;
+    }
+    @keyframes text-small{
+      0% {
+        transform: translateX(0)
+      }
+      100% {
+        transform: translateX(3%);
+        color: yellow;
+        
+      }
+    }
+  }
 }
 

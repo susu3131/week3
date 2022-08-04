@@ -224,6 +224,10 @@ p, li {
   .container {
     padding: 0 35px; } }
 
+@media (max-width: 767px) {
+  .container {
+    padding: 0 13px; } }
+
 header img {
   width: 80px; }
 
@@ -308,13 +312,11 @@ footer img {
             animation: text 0.8s 1; }
 
 @media (max-width: 992px) {
-  .footer-box .flex {
-    width: 77%; }
-  .footer-box .footer-img {
-    width: 25%; }
-    .footer-box .footer-img li {
-      margin: 0px;
-      margin-left: 16px; } }
+  footer img {
+    width: 40px; }
+  .footer-box .footer-img li {
+    margin: 0;
+    margin-left: 16px; } }
 
 @media (max-width: 767px) {
   footer .container {
@@ -322,26 +324,12 @@ footer img {
   .footer-none {
     display: none; }
   .footer-box {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
     padding: 0px; }
     .footer-box .footer-img {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      position: Relative;
-      width: 100%; } }
-    @media (max-width: 767px) and (max-width: 766px) {
-      .footer-box .footer-img {
-        top: 10%;
-        right: -80%; } }
-    @media (max-width: 767px) and (max-width: 530px) {
-      .footer-box .footer-img {
-        top: 10%;
-        right: -67%; } }
-
-@media (max-width: 767px) {
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      width: 100%; }
       .footer-box .footer-img img {
         width: 24px; }
   .footer-contant {
@@ -826,6 +814,20 @@ footer img {
         -ms-flex-align: end;
             align-items: end; }
 
+@media (max-width: 992px) {
+  .blog-content h3 {
+    font-size: 24px;
+    line-height: 36px; }
+  .blog-content .flex-jcsb h4, .blog-content p {
+    font-size: 16px;
+    line-height: 24px; }
+  .blog-content a {
+    display: none; }
+  .blog-content .flex-jcsb {
+    margin-bottom: 0px; }
+  .blog-content-box img {
+    width: 48%; } }
+
 .contant-tittle {
   padding-bottom: 48px; }
   .contant-tittle h1 {
@@ -838,5 +840,11 @@ footer img {
   .contant .text {
     margin-bottom: 8px;
     font-weight: 700; }
+
+@media (max-width: 767px) {
+  .contant-tittle h1 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 40px 0 24px 0; } }
 
 /*# sourceMappingURL=all.css.map */

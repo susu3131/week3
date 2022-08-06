@@ -136,6 +136,10 @@ p, li {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
+.flex-wp {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
 .flex-jcsb {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -420,7 +424,7 @@ footer img {
     line-height: 96px; }
   .banner .banner-text {
     text-align: right;
-    margin-right: 312px; }
+    margin-right: 10%; }
   .banner input {
     background-color: #AA0601;
     color: white;
@@ -448,8 +452,7 @@ footer img {
     color: #650300;
     padding: 80px 0 32px 0; }
   .index-block .index-box {
-    width: 25%;
-    padding-left: 24px;
+    width: 24%;
     margin-bottom: 80px; }
     .index-block .index-box h4 {
       margin-bottom: 8px; }
@@ -459,8 +462,6 @@ footer img {
       margin-bottom: 24px; }
     .index-block .index-box p {
       text-align: left; }
-  .index-block .flex-jcsb {
-    margin-left: -24px; }
 
 .index-series {
   padding: 80px 0;
@@ -476,6 +477,7 @@ footer img {
     padding-left: 24px; }
     .index-series .index-seriex-box h2 {
       margin-top: 8px;
+      margin-bottom: 0px;
       color: #AA0601;
       font-weight: 900;
       font-style: italic; }
@@ -492,15 +494,14 @@ footer img {
   text-align: center; }
   .index-design h2 {
     color: white;
-    font-weight: 700; }
-  .index-design .index-image {
-    width: 50%; }
-    .index-design .index-image h2 {
-      padding: 8px auto;
-      font-weight: 900;
-      font-style: italic;
-      color: #AA0601;
-      background: white; }
+    font-weight: 700;
+    margin-bottom: 48px; }
+  .index-design .index-image h2 {
+    padding: 8px auto;
+    font-weight: 900;
+    font-style: italic;
+    color: #AA0601;
+    background: white; }
 
 .index-customer {
   text-align: center; }
@@ -518,8 +519,7 @@ footer img {
       .index-customer .index-customer-box .customer-box p {
         margin-bottom: 8px; }
       .index-customer .index-customer-box .customer-box .time {
-        margin-bottom: 0px;
-        margin: top 64px; }
+        margin: 64px auto 0 auto; }
   .index-customer .index-customer-box:hover {
     opacity: 0.7;
     -webkit-transition-duration: 1s;
@@ -586,6 +586,30 @@ footer img {
     margin-bottom: 8px; }
   .index-table .index-input {
     padding-bottom: 106px; }
+
+@media (max-width: 992px) {
+  .banner {
+    background-image: url(../images/home-header-sm.png); }
+    .banner .banner-text {
+      margin-right: 5%; }
+  .index-block .index-box {
+    width: 49%; }
+  .index-series {
+    width: 44.7%; }
+    .index-series .index-seriex-box {
+      width: 100%; }
+  .index-design .flex-jcsb {
+    display: block; }
+  .index-design .index-image:first-child {
+    margin-bottom: 24px; }
+  .index-customer {
+    width: 100%;
+    padding: 80px 35px 56px 35px; }
+    .index-customer .index-customer-box {
+      width: 48.5%;
+      margin-bottom: 24px; }
+  .index-contantus .container {
+    width: 100%; } }
 
 .series-nav li {
   width: 33%;

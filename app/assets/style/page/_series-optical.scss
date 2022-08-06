@@ -1,5 +1,4 @@
 .series-nav{
-  
   li{
     width: 33%;
     text-align: center;
@@ -12,14 +11,11 @@
   li:last-child{
     border-right: 1px solid #DCDCDC;
   }
-  
   a:hover{
     border-bottom: 8px solid #AA0601;
     background-color: rgb(238, 238, 238);
     opacity: 0.8;
     transition-duration: 0.4s;
-    
-      
   }
 }
 .series-content-title{
@@ -27,7 +23,6 @@
   text-align: center;
   
 }
-
 .series-content-title::first-line{
   font-size: 42px;
   line-height: 63px;
@@ -35,15 +30,22 @@
 }
 
 .series-banner{
-  width: 50%;
-}
-.series-content-box{
-  margin: 0 -24px;
+  .series-banner-box{
+    width: 50%;
+    height: 31.6vh;
+    background: center ;
+    background-size: cover;
+  }
+  .series-banner-img1{
+    background-image: url(../images/product-header-1.png);
+  }
+  .series-banner-img2{
+    background-image: url(../images/product-header-2.png);
+  }
 }
 
 .series-content-item{
-  width: 23%;
-  margin-left: 23px;
+  width: 24%;
   margin-bottom:80px;
   h4{
     font-weight: 400;
@@ -61,5 +63,84 @@
     background: #B75929;
     margin-left: 8px;
     
+  }
+}
+
+@include ipad{
+  .series-nav{
+    border-bottom: 1px solid #DCDCDC;
+    padding: 0px;
+    li{
+      width: 100%;
+      h3{
+        font-size: 24px;
+        line-height: 36px;
+        padding: 16px 0;
+      }
+    }
+    li:last-child{
+      border-right: 0px ;
+    }
+  }
+
+  .series-banner{
+    
+    .series-banner-img1{
+      background-image: url(../images/product-header-sm-1.png);
+    }
+    .series-banner-img2{
+      background-image: url(../images/product-header-sm-2.png);
+    }
+  }
+  .series-content{
+    .series-content-item{
+      width: 49%;
+    }
+  }
+
+}
+
+@include phone{
+  .series-banner{
+    .series-banner-box{
+      height: 16vh;
+    }
+  }
+  
+  .series-nav{
+    li{
+      h3{
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+  .series-content{
+    .series-content-title{
+      padding: 40px 0 24px 0;
+      h3{
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+    .series-content-item{
+      width: 100%;
+      margin-bottom: 24px;
+      img{
+        width: 100%;
+      }
+    }
+    .series-content-title::first-line{
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+  .series-banner{
+    .series-banner-img1{
+      background-image: url(../images/product-header-sm-1.png);
+    }
+    .series-banner-img2{
+      background-image: url(../images/product-header-sm-2.png);
+    }
   }
 }

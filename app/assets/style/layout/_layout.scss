@@ -1,87 +1,3 @@
-*,*::before,*::after{
-  box-sizing: border-box;
-}
-
-body{
-  font-family:"Roboto",'Noto Sans TC', sans-serif,serif;
-  
-}
-
-// a連結設定& 動畫
-
-a{
-  display: block;
-  text-decoration: none;
-  color: black;
-}
-
-@keyframes opacity{
-  0%{
-    opacity: 0.5;
-  }
-  100%{
-    
-    opacity: 1;
-  }
-}	
-@keyframes text{
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: scale(1.2);
-    color: yellow;
-    
-  }
-}
-
-
-img{
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-input{
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 500 ;
-  font-family:'Noto Sans TC';
-}
-// 字型設定
-
-h1{
-  font-size: 48px;
-  line-height: 72px;
-  font-weight:700 ;
-  border-left:solid 8px #9F1213;
-  margin-top: 96px;
-  margin-bottom: 32px;
-  padding-left: 16px;
-}
-
-h2{
-  font-size: 48px;
-  line-height: 72px;
-}
-
-h3{
-  font-size: 32px;
-  line-height: 48px;
-}
-
-h4,label{
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: 700;
-  
-}
-
-p,li{
-  font-size: 16px;
-  line-height: 24px;
-
-}
 .text{
   font-size: 20px;
   line-height: 30px;
@@ -92,6 +8,10 @@ p,li{
 .flex{
   display: flex;
 }
+.flex-jc{
+  justify-content: space-between;
+}
+
 .flex-jcsb{
   display: flex;
   justify-content: space-between;
@@ -138,8 +58,10 @@ p,li{
 
 // 網頁尺寸
 .container{
-  max-width: 1296px;
+  max-width: 1320px;
   margin: 0 auto;
+  padding: 0 12px;
+
 }
 
 
@@ -181,7 +103,7 @@ p,li{
 }
 @include phone{
   .page-bottom{
-    margin: 64px auto;
+    margin: 40px 0 64px 0;
     li{
       font-size: 16x;
       line-height: 26px;

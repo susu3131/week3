@@ -677,6 +677,8 @@ footer img {
   .series-content .series-content-item {
     width: 100%;
     margin-bottom: 24px; }
+    .series-content .series-content-item img {
+      width: 100%; }
   .series-content .series-content-title::first-line {
     font-size: 24px;
     line-height: 36px; }

@@ -17,9 +17,13 @@
 
 // page
 @import "./page/index";
+@import "./page/index-mixin";
+
 @import "./page/series-optical";
 @import "./page/series-sunglasses";
+
 @import "./page/store";
 @import "./page/store-taipei";
+
 @import "./page/blog";
 @import "./page/QA";

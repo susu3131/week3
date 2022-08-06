@@ -16,7 +16,7 @@
   }
   .banner-text{
     text-align: right;
-    margin-right: 312px;
+    margin-right: 10%;
   }
   input{
     background-color: #AA0601;
@@ -46,8 +46,7 @@
     padding: 80px 0 32px 0; 
   }
   .index-box{
-    width: 25%;
-    padding-left: 24px;
+    width: 24%;
     margin-bottom: 80px;
     h4{
       
@@ -62,9 +61,7 @@
       text-align: left;
     }
   }
-  .flex-jcsb{
-    margin-left: -24px;
-  }
+
 }
 
 .index-series{
@@ -83,6 +80,7 @@
     padding-left: 24px;
     h2{
       margin-top: 8px;
+      margin-bottom: 0px;
       color: #AA0601;
       font-weight: 900;
       font-style: italic;
@@ -103,9 +101,9 @@
   h2{
     color: white;
     font-weight: 700;
+    margin-bottom: 48px;
   }
   .index-image{
-    width: 50%;
     h2{
       padding: 8px auto;
       font-weight: 900;
@@ -134,8 +132,7 @@
         margin-bottom: 8px;
       }
       .time{
-        margin-bottom: 0px;
-        margin: top 64px; ;
+        margin:64px auto 0 auto;
       }
       
     }
@@ -150,16 +147,7 @@
 .index-contantus{
   background: #FBF2F2;
   padding: 80px 0;
-  label{
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-  }
-  .check{
-    appearance:checkbox;
-    margin-bottom: 48px;
-    
-  }
+
 
   .container{
     width: 50%;
@@ -184,7 +172,9 @@
     color: white;
     background: #AA0601;
     border:0;
+    
   }
+
   input:hover {
     background:linear-gradient(to bottom, #941b10 20%, #AA0601 100%);
     transform: scale(1.1);
@@ -196,10 +186,10 @@
 }
 
 
-
 .index-table{
   flex-direction: column;
-  
+
+
   input{
     display: block;
     font-size: 16px;
@@ -217,4 +207,15 @@
     padding-bottom: 106px;
   }
   
+}
+.checkbox{
+  margin-bottom: 24px;
+} 
+label{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  .check{
+    appearance:checkbox;
+  }
 }

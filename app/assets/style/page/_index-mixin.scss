@@ -1,0 +1,135 @@
+@include ipad{
+  .banner{
+    background-image: url(../images/home-header-sm.png);
+    .banner-text{
+      margin-right: 5%;
+    }
+  }
+  .index-block{
+    .index-box{
+      width: 49%;
+    }
+  }
+  .index-series{
+    width: 44.7%;
+    .index-seriex-box{
+      width: 100%;
+    }
+  }
+  .index-design{
+    .flex{
+      display: block;
+    }
+    .index-image:first-child{
+      margin-bottom: 24px;
+    }
+  }
+  .index-customer{
+    width: 100%;
+    padding: 80px 35px 56px 35px;
+    .index-customer-box{
+      width: 48.5%;
+      margin-bottom: 24px;
+    }
+  }
+  .index-contantus{
+    .container{
+      width: 100%;
+    }
+    
+  }
+}
+
+@include phone{
+  h2{
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .banner{
+    height: 50vh;
+    background-image: url(../images/home-header-sm.png);
+    .banner-text{
+      margin-right: 5%;
+    }
+  }
+  .banner-text{
+    h3{
+      font-size: 16px;
+      line-height: 24px;
+    }
+    h1{
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+  .index-block{
+    h2{
+        padding: 40px 0 32px 0;
+    }
+    .index-box{
+      width: 100%;
+      margin-bottom: 32px;
+    }
+    .index-box:last-child{
+      margin-bottom: 40px;
+    }
+  }
+  .index-series{  
+    width: 100%;
+    padding: 40px 0 16px 0 ;
+    h2{
+      margin-bottom: 24px;
+    }
+    .index-seriex-box{
+      margin-bottom: 24px;
+      padding: 0px 13px;
+      h2{
+        font-size: 48px;
+        line-height: 72px;
+      }
+    }
+  }
+  .index-design{
+    padding: 40px 0 16px 0 ;
+    h2{
+      margin-bottom: 24px;
+    }
+    img{
+      display: none;
+    }
+    .index-image-img{
+      background-image: url(../images/home-section4-1-sm.png);
+      height: 27.5vh;
+      background-size: cover;
+    }
+    .index-image-img-2{
+      background-image: url(../images/home-section4-2-sm.png);
+      height: 27.5vh;
+      background-size: cover;
+    }
+    .index-image{
+      h2{
+        font-size: 48px;
+        line-height: 72px;
+        padding: 8px 0;
+      }
+    }
+  }
+
+  .index-customer{
+    .index-customer-box{
+      padding: 0 13px;
+      width: 100%;
+    }
+  }
+  .index-contantus {
+    padding: 40px  0 ;
+    .container h2{
+      margin-bottom: 24px;
+    }
+    p{
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}

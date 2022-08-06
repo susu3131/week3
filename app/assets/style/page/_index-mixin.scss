@@ -1,10 +1,17 @@
 @include ipad{
-  .banner{
-    background-image: url(../images/home-header-sm.png);
-    .banner-text{
-      margin-right: 5%;
+  .index-content{
+    .banner{
+      background-image: url(../images/home-header-sm.png) ;
+      background-position:center;
+      background-size: cover;
+      
+      .banner-text{
+        margin-right: 5%;
+      }
     }
+
   }
+  
   .index-block{
     .index-box{
       width: 49%;

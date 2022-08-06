@@ -424,7 +424,7 @@ footer img {
     line-height: 96px; }
   .banner .banner-text {
     text-align: right;
-    margin-right: 10%; }
+    margin-right: 5%; }
   .banner input {
     background-color: #AA0601;
     color: white;
@@ -591,9 +591,11 @@ label {
             appearance: checkbox; }
 
 @media (max-width: 992px) {
-  .banner {
-    background-image: url(../images/home-header-sm.png); }
-    .banner .banner-text {
+  .index-content .banner {
+    background-image: url(../images/home-header-sm.png);
+    background-position: center;
+    background-size: cover; }
+    .index-content .banner .banner-text {
       margin-right: 5%; }
   .index-block .index-box {
     width: 49%; }

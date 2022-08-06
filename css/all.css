@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -128,6 +131,11 @@ p, li {
   display: -ms-flexbox;
   display: flex; }
 
+.flex-jc {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
 .flex-jcsb {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -195,8 +203,9 @@ p, li {
     color: white; }
 
 .container {
-  max-width: 1296px;
-  margin: 0 auto; }
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px; }
 
 .page-bottom {
   margin: 92px auto;
@@ -226,7 +235,7 @@ p, li {
 
 @media (max-width: 767px) {
   .page-bottom {
-    margin: 64px auto; }
+    margin: 40px 0 64px 0; }
     .page-bottom li {
       font-size: 16x;
       line-height: 26px; }
@@ -606,15 +615,20 @@ footer img {
   line-height: 63px;
   font-weight: 500; }
 
-.series-banner {
-  width: 50%; }
+.series-banner .series-banner-box {
+  width: 50%;
+  height: 31.6vh;
+  background: center;
+  background-size: cover; }
 
-.series-content-box {
-  margin: 0 -24px; }
+.series-banner .series-banner-img1 {
+  background-image: url(../images/product-header-1.png); }
+
+.series-banner .series-banner-img2 {
+  background-image: url(../images/product-header-2.png); }
 
 .series-content-item {
-  width: 23%;
-  margin-left: 23px;
+  width: 24%;
   margin-bottom: 80px; }
   .series-content-item h4 {
     font-weight: 400; }
@@ -630,8 +644,63 @@ footer img {
     background: #B75929;
     margin-left: 8px; }
 
-.series-content-item {
-  width: 31%; }
+@media (max-width: 992px) {
+  .series-nav {
+    border-bottom: 1px solid #DCDCDC;
+    padding: 0px; }
+    .series-nav li {
+      width: 100%; }
+      .series-nav li h3 {
+        font-size: 24px;
+        line-height: 36px;
+        padding: 16px 0; }
+    .series-nav li:last-child {
+      border-right: 0px; }
+  .series-banner .series-banner-img1 {
+    background-image: url(../images/product-header-sm-1.png); }
+  .series-banner .series-banner-img2 {
+    background-image: url(../images/product-header-sm-2.png); }
+  .series-content .series-content-item {
+    width: 49%; } }
+
+@media (max-width: 767px) {
+  .series-banner .series-banner-box {
+    height: 16vh; }
+  .series-nav li h3 {
+    font-size: 16px;
+    line-height: 24px; }
+  .series-content .series-content-title {
+    padding: 40px 0 24px 0; }
+    .series-content .series-content-title h3 {
+      font-size: 24px;
+      line-height: 36px; }
+  .series-content .series-content-item {
+    width: 100%;
+    margin-bottom: 24px; }
+  .series-content .series-content-title::first-line {
+    font-size: 24px;
+    line-height: 36px; }
+  .series-banner .series-banner-img1 {
+    background-image: url(../images/product-header-sm-1.png); }
+  .series-banner .series-banner-img2 {
+    background-image: url(../images/product-header-sm-2.png); } }
+
+.series-banner .series-banner-img3 {
+  background-image: url(../images/product-header-3.png); }
+
+.series-banner .series-banner-img4 {
+  background-image: url(../images/product-header-4.png); }
+
+.series-sunglasses-box {
+  width: 32.4%; }
+
+@media (max-width: 992px) {
+  .series-banner .series-banner-img3 {
+    background-image: url(../images/product-header-sm-3.png); }
+  .series-banner .series-banner-img4 {
+    background-image: url(../images/product-header-sm-4.png); }
+  .series-sunglasses-box {
+    width: 10%; } }
 
 .store-tittle-box {
   margin-bottom: 41px;

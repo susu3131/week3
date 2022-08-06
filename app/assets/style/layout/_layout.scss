@@ -8,45 +8,53 @@
 .flex{
   display: flex;
 }
-.flex-jc{
+.flex-jcsb{
   justify-content: space-between;
+}
+.flex-jc{
+  justify-content: center;
+}
+// .flex-jc{
+//   justify-content: space-between;
+// }
+.flex-ac{
+  align-items: center;
 }
 .flex-wp{
   flex-wrap: wrap;
 }
-
-.flex-jcsb{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.flex-column{
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: flex-end;
 }
+// .flex-jcsb{
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
 
 .flex-align-c{
   display: flex;
   align-items: center;
 }
 
-.flex-justify-c{
-  display: flex;
-  justify-content: center;
-}
+// .flex-justify-c{
+//   display: flex;
+//   justify-content: center;
+// }
 
-.flex-c{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+// .flex-c{
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
 
-.flex-column{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-}
-.flex-wrap{
-  display: flex;
-  flex-wrap: wrap;
-}
+
+// .flex-wrap{
+//   display: flex;
+//   flex-wrap: wrap;
+// }
 
 // header & footer 背景字體設定
 
@@ -73,7 +81,7 @@
 
 .page-bottom{
   margin: 92px auto;
-  width: 40%;
+  width: 50%;
 
   li{
     display: block;

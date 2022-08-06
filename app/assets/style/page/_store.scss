@@ -53,29 +53,12 @@
 }
 
 // RWD
-@include ipad{
-  .store-tittle-box{
-    width: 100%;
-  }
-  .flex-wrap{
-    margin: 0;
-  }
-  .store-content{
-    margin-left: -24px;
-  }
-  .store-content-box{
-    width: 50%;
-    padding: 0px;
-    padding-left: 24px;
-    
-  }
-}
 
 @include ipad{
   .store-tittle-box{
     width: 100%;
   }
-  .flex-wrap{
+  .flex-wp{
     margin: 0;
   }
   .store-content{
@@ -108,11 +91,8 @@
     
   }
   }
-}
+  }
   .store-content-box{
     width: 100%;
-    
   }
-
-
 }

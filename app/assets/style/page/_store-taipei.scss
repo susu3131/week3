@@ -19,58 +19,46 @@
     .flex{
       flex-direction: column;
     }
-    li{
-      list-style: none;
+    .store-taipei{
+      display:flex;
+      justify-content: space-between;
+      width: 100%;
     }
   }
-  
-  .store-taipei{
-    width: 100%;
-    display: flex;
-
+  .store-content-box{
+    img{
+      width: 49%;
+    }
     .store-content-flex{
+      width: 49%;
       margin: 0px;
       border: 1px solid #00000020;
-      width: 50%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
     }
-    img{
-      width: 50%;
-      padding-right: 24px;
-      
-    }
-    p{
-      font-size: 20px;
-      line-height: 30px;
-      padding-left: 11px;
-    }
-    ul{
+    ul,h4{
       border:0px;
-      padding: 16px 24px;
-        
     }
-    
     h4{
-      width: 100%;
-      border: 0px;
       border-bottom: 1px solid #00000020;
     }
-    
+    .store-content-box-icon{
+      flex-direction: row;
+    }
   }
   .store-map{
-    display: block;
+    width: 100%;
     height: 50vh;
     margin-top: 24px ;
     margin-left: 0px;
-    width: 100%;
-    
   }
 }
 
 
 @include phone{
+  .store-taipei-index{
+    .store-taipei{
+      display:block;
+    }
+  }
   .store-content-box{
       display: block;
       img{
@@ -84,6 +72,4 @@
   .store-map{
     height: 35vh;
   }
-    
-
 }

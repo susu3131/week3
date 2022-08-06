@@ -9,7 +9,7 @@
 .series-sunglasses-box{
   width: 32.4%;
   // img{
-  //   height: 25vh;
+  //   height: 28vh;
   // }
 }
 
@@ -22,10 +22,9 @@
       background-image: url(../images/product-header-sm-4.png);
     }
   }
-.series-sunglasses-box{
-  width: 10%;
-  // img{
-  //   height: 22vh;
-  // }
-}
+  .series-sunglasses-box{
+    img{
+      height: auto;
+    }
+  }
 }

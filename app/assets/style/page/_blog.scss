@@ -90,6 +90,11 @@
 
 @include phone{
   .blog-content{
+    h1{
+      margin: 40px 0 24px 0;
+      font-size: 24px;
+      line-height: 36px;
+    }
     .text{
       display: none;
     }
@@ -104,5 +109,8 @@
     width: 100%;
     padding: 0px;
     
+  }
+  .page-bottom{
+    margin-top: 64px;
   }
 }

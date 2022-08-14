@@ -1,0 +1,93 @@
+extend layout/layout.pug
+block navbar
+    - var path = 'page3.html'
+    include layout/navbar.pug
+block content
+    .blog-bg
+      .blog-nav.container.flex.flex-jcsb.flex-ac 
+        ul.flex.fsz-6.lh-6
+          li 最新消息
+          li 特別企劃
+          li 新品上市
+          li 鏡框小知識
+        i.fa-solid.fa-magnifying-glass
+    .container 
+      .blog-text 
+        .blog-text-tittle.lh-7 
+          ul.flex
+            li 首頁 /  
+            li 部落格 / 
+            li 特別企劃 /
+            li.blog-color 情人特別企劃
+          .blog-text-tittle-box.flex.fw-b.fsz-5.lh-5
+            p #special
+            p #event
+      .blog-text-content.flex.flex-jcsb 
+        .blog-text-content-article
+          h1.fsz-1.lh-1 情人特別企劃  
+          h2.fsz-5.lh-5.fw-m 2020 Valentine’s Special
+          ul 
+            li.article-mb
+              img(src="./images/blogpage-1.png", alt="blogpage-1.png")
+              p.lh-7.article-mt 一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。 本次拍攝的鏡框款式與 NEEDS CLASSIC 聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！
+          ul 
+            li.article-mb
+              img(src="./images/blogpage-2.png", alt="blogpage-2.png")
+              p.lh-7.article-mt 一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。 本次拍攝的鏡框款式與 NEEDS CLASSIC 聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！          
+          ul 
+            li.article-mb
+              img(src="./images/blogpage-3.png", alt="blogpage-3.png")
+              p.lh-7.article-mt 一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。 本次拍攝的鏡框款式與 NEEDS CLASSIC 聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！
+          ul 
+            li.article-mb
+              img(src="./images/blogpage-4.png", alt="blogpage-4.png")
+              p.lh-7.article-mt 2/14(五)-2/20(日) 
+                br 
+                |至本店單筆消費滿2980元, 就送情人節限定眼鏡盒1個 
+                br
+                |期間優惠還有~~持他牌鏡框更換鏡片 
+                br
+                |薄型非球面鏡片折300元 
+                br
+                |濾藍光鏡片折500元 
+                br
+                |快快帶上另一半 
+                br
+                |讓彼此每一次睜開眼，都被愛的視線包圍!
+          .blog-article
+            ul.flex.flex-ac
+              li 
+                a.fw-b.lh-7(href="") Share
+              li
+                a(href="#") 
+                  img(src="./images/logo-facebook.png", alt="logo-facebook")
+              li
+                a(href="#") 
+                  img(src="./images/logo-instagram.png", alt="logo-instagram")
+            .flex.flex-jcsb 
+              .flex
+                i.fa-solid.fa-arrow-left
+                p 上一篇：街頭潮人訪問 1
+              .flex
+                p 上一篇：街頭潮人訪問 2
+                i.fa-solid.fa-arrow-right  
+
+        
+        .blog-text-content-label.fsz-5.lh-5.fw-b 
+          .flex.flex-ac
+            i.fa-solid.fa-tag
+            h3.fsz-4.lh-4 TAGS
+          .flex
+            p #special
+            p #sale
+          .flex
+            p #new_item
+            p #interview
+          .flex
+            p #trivia
+            p #news
+          .flex
+            p #event
+            
+block footer
+    include layout/footer.pug

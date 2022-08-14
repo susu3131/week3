@@ -1,3 +1,20 @@
+.blog-bg{
+  background: $text-color;
+  color:white;
+  padding: 13px;
+  li{
+    padding-right: 48px;
+  }
+  i{
+    width: 29px;
+  }
+
+  li:hover,i:hover{
+    opacity: 0.7;
+  }
+}
+
+
 .blog-content{
   .flex-jcsb{
     align-items: stretch;

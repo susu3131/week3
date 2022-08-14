@@ -931,6 +931,9 @@ label .check {
   -o-object-fit: cover;
      object-fit: cover; }
 
+.blog-content .hide {
+  display: none; }
+
 .blog-content-text {
   width: 49%; }
   .blog-content-text h3 {
@@ -970,15 +973,15 @@ label .check {
     width: 50%;
     padding-left: 24px; }
     .blog-content-text a {
-      color: #555555;
-      font-size: 16px;
-      line-height: 24px;
-      padding: 0px;
+      display: none; }
+    .blog-content-text .hide {
       display: inline; }
   .text {
     text-align: justify; } }
 
 @media (max-width: 767px) {
+  .blog-bg {
+    display: none; }
   .blog-content h1 {
     margin: 40px 0 24px 0;
     font-size: 24px;
@@ -992,6 +995,8 @@ label .check {
   .blog-content-text {
     width: 100%;
     padding: 0px; }
+    .blog-content-text .blog-color {
+      display: none; }
   .page-bottom {
     margin-top: 64px; } }
 
@@ -1045,8 +1050,9 @@ label .check {
     width: 38px; }
 
 @media (max-width: 992px) {
-  .blog-bg {
-    padding: 13px 0; }
+  .blog-text-bg {
+    padding: 13px 0;
+    display: block; }
   .blog-text-content-label h3, .blog-text-content-label p {
     font-size: 16px;
     line-height: 24px; }

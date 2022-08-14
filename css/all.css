@@ -665,8 +665,7 @@ label .check {
   text-align: center; }
   .series-nav li h3 {
     border-left: 1px solid #DCDCDC;
-    padding: 24px 0;
-    font-weight: 500; }
+    padding: 24px 0; }
 
 .series-nav li:last-child {
   border-right: 1px solid #DCDCDC; }
@@ -683,11 +682,6 @@ label .check {
   padding: 80px 0 32px 0;
   text-align: center; }
 
-.series-content-title::first-line {
-  font-size: 42px;
-  line-height: 63px;
-  font-weight: 500; }
-
 .series-banner .series-banner-box {
   width: 50%;
   height: 31.6vh;
@@ -703,10 +697,7 @@ label .check {
 .series-content-item {
   width: 24%;
   margin-bottom: 80px; }
-  .series-content-item h4 {
-    font-weight: 400; }
   .series-content-item .money {
-    font-weight: 500;
     color: #AA0601; }
   .series-content-item .series-content-color {
     background: #5F3E2D;

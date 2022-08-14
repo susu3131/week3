@@ -797,7 +797,7 @@ label .check {
   .store-content-box button {
     width: 100%;
     background-color: #000000;
-    color: white;
+    color: #ffffff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -870,17 +870,17 @@ label .check {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 100%; }
-  .store-content-box img {
+  .store-taipei img {
     width: 49%; }
-  .store-content-box .store-content-flex {
+  .store-taipei .store-content-flex {
     width: 49%;
     margin: 0px;
     border: 1px solid #00000020; }
-  .store-content-box ul, .store-content-box h4 {
+  .store-taipei ul, .store-taipei h4 {
     border: 0px; }
-  .store-content-box h4 {
+  .store-taipei h4 {
     border-bottom: 1px solid #00000020; }
-  .store-content-box .store-content-box-icon {
+  .store-taipei .store-content-box-icon {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -926,21 +926,11 @@ label .check {
     color: #650300; }
   .blog-content-text .flex-jcsb {
     margin-bottom: 16px; }
-    .blog-content-text .flex-jcsb h4 {
-      font-size: 20px;
-      line-height: 30px; }
-    .blog-content-text .flex-jcsb p {
-      font-size: 16px;
-      line-height: 24px;
-      font-weight: 500; }
-  .blog-content-text .text {
+  .blog-content-text .blog-color {
     color: #555555; }
   .blog-content-text a {
     padding-top: 102px;
     color: #650300;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 54px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -977,7 +967,7 @@ label .check {
   .text {
     text-align: justify; } }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .blog-content h1 {
     margin: 40px 0 24px 0;
     font-size: 24px;
@@ -998,14 +988,13 @@ label .check {
   padding-bottom: 48px; }
   .contant-tittle h1 {
     margin-bottom: 32px; }
-  .contant-tittle h4 {
+  .contant-tittle h2 {
     margin-bottom: 24px; }
 
 .contant {
   margin-bottom: 32px; }
-  .contant .text {
-    margin-bottom: 8px;
-    font-weight: 700; }
+  .contant .fsz-6 {
+    margin-bottom: 8px; }
 
 @media (max-width: 576px) {
   .contant-tittle h1 {

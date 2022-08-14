@@ -5,7 +5,7 @@
     h3{
       border-left: 1px solid #DCDCDC;
       padding: 24px 0;
-      font-weight: 500;
+      
     }
   }
   li:last-child{
@@ -22,11 +22,6 @@
   padding: 80px 0 32px 0;
   text-align: center;
   
-}
-.series-content-title::first-line{
-  font-size: 42px;
-  line-height: 63px;
-  font-weight: 500;
 }
 
 .series-banner{
@@ -47,12 +42,9 @@
 .series-content-item{
   width: 24%;
   margin-bottom:80px;
-  h4{
-    font-weight: 400;
-  }
+  
   .money{
-    font-weight: 500;
-    color: #AA0601;
+    color: $primary;
   }
   .series-content-color{
     background: #5F3E2D;

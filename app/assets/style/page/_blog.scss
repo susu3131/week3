@@ -29,7 +29,9 @@
     width: 49%;
     object-fit: cover ;
   }
-  
+  .hide{
+    display: none;
+  }
 }
 
 
@@ -82,10 +84,9 @@
     width: 50%;
     padding-left: 24px;
     a{
-      color:#555555;
-      font-size: 16px;
-      line-height: 24px;
-      padding: 0px;
+      display: none;
+    }
+    .hide{
       display: inline;
     }
   }
@@ -95,6 +96,9 @@
 }
 
 @include mobie{
+  .blog-bg{
+    display: none;
+  }
   .blog-content{
     h1{
       margin: 40px 0 24px 0;
@@ -114,7 +118,9 @@
   .blog-content-text{
     width: 100%;
     padding: 0px;
-    
+    .blog-color{
+      display: none;
+    }
   }
   .page-bottom{
     margin-top: 64px;

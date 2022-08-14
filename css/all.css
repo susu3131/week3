@@ -398,6 +398,7 @@ footer img {
           justify-content: end;
   background-image: url(../images/home-header.png);
   background-size: cover;
+  background-position: center;
   height: 100vh;
   color: #650300; }
   .banner h1 {
@@ -559,19 +560,17 @@ footer img {
   .index-table p {
     margin-bottom: 8px; }
   .index-table .index-input {
-    padding-bottom: 106px; }
+    padding-bottom: 106px;
+    width: 100%;
+    background-color: rgba(251, 242, 242, 0); }
 
 .checkbox {
   margin-bottom: 24px; }
 
-label {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400; }
-  label .check {
-    -webkit-appearance: checkbox;
-       -moz-appearance: checkbox;
-            appearance: checkbox; }
+label .check {
+  -webkit-appearance: checkbox;
+     -moz-appearance: checkbox;
+          appearance: checkbox; }
 
 @media (max-width: 992px) {
   .index-content .banner {

@@ -10,6 +10,10 @@
 @import "./base/base.scss";
 @import "./base/mixin.scss";
 
+// util
+@import "./util/variable.scss";
+@import "./util/util.scss";
+
 // layout
 @import "./layout/layout";
 @import "./layout/header";

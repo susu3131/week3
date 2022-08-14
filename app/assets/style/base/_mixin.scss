@@ -5,8 +5,15 @@
   
 }
 
-@mixin phone {
+@mixin mobie {
   @media(max-width: 767px){
+    @content;
+  }
+  
+}
+
+@mixin phone {
+  @media(max-width: 576px){
     @content;
   }
   

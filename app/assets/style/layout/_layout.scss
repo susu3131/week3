@@ -1,68 +1,9 @@
-.text{
-  font-size: 20px;
-  line-height: 30px;
-}
-
-// flex設定
-
-.flex{
-  display: flex;
-}
-.flex-jcsb{
-  justify-content: space-between;
-}
-.flex-jc{
-  justify-content: center;
-}
-// .flex-jc{
-//   justify-content: space-between;
-// }
-.flex-ac{
-  align-items: center;
-}
-.flex-wp{
-  flex-wrap: wrap;
-}
-.flex-column{
-  flex-direction: column;
-  // justify-content: center;
-  // align-items: flex-end;
-}
-// .flex-jcsb{
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-// }
-
-.flex-align-c{
-  display: flex;
-  align-items: center;
-}
-
-// .flex-justify-c{
-//   display: flex;
-//   justify-content: center;
-// }
-
-// .flex-c{
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
-
-
-// .flex-wrap{
-//   display: flex;
-//   flex-wrap: wrap;
-// }
-
 // header & footer 背景字體設定
-
 .bg-red{
-  background-color: #AA0601;
-  color:white;
+  background-color: $primary;
+  color:$white;
   a{
-    color: white;
+    color: $white;
   }
   
 }
@@ -76,9 +17,7 @@
 }
 
 
-
 // button 換頁按鈕
-
 .page-bottom{
   margin: 92px auto;
   width: 50%;
@@ -92,7 +31,7 @@
   li:first-child,li:last-child{
     font-size: 19px;
     line-height: 29px;
-    background: #F2F2F2;
+    background: $white;
   }
   a{
     padding: 16px;
@@ -100,8 +39,8 @@
   }
 
   a:hover{
-    background: black;
-    color: white;
+    background: $black;
+    color: $white;
     opacity: 0.8;
     transition-duration : 0.5s;
   }

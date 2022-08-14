@@ -1,14 +1,12 @@
 *,*::before,*::after{
   box-sizing: border-box;
 }
-
 body{
   font-family:"Roboto",'Noto Sans TC', sans-serif,serif;
   
 }
 
 // a連結設定& 動畫
-
 a{
   display: block;
   text-decoration: none;
@@ -40,20 +38,21 @@ img{
   max-width: 100%;
   height: auto;
   display: block;
+  object-fit: cover;
 }
 
-input{
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 500 ;
-  font-family:'Noto Sans TC';
-}
+// input{
+//   font-size: 20px;
+//   line-height: 30px;
+//   font-weight: 500 ;
+//   font-family:'Noto Sans TC';
+// }
 // 字型設定
 
 h1{
-  font-size: 48px;
-  line-height: 72px;
-  font-weight:700 ;
+  // font-size: 48px;
+  // line-height: 72px;
+  // font-weight:700 ;
   border-left:solid 8px #9F1213;
   margin-top: 96px;
   margin-bottom: 32px;
@@ -61,25 +60,25 @@ h1{
 }
 
 h2{
-  font-size: 48px;
-  line-height: 72px;
+  // font-size: 48px;
+  // line-height: 72px;
 }
 
 h3{
-  font-size: 32px;
-  line-height: 48px;
+  // font-size: 32px;
+  // line-height: 48px;
 }
 
-h4,label{
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: 700;
+// h4,label{
+//   font-size: 24px;
+//   line-height: 36px;
+//   font-weight: 700;
   
-}
+// }
 
 
-p,li{
-  font-size: 16px;
-  line-height: 24px;
+// p,li{
+//   font-size: 16px;
+//   line-height: 24px;
 
-}
+// }

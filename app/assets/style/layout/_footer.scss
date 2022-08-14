@@ -1,11 +1,9 @@
 footer{
-  // padding: 60px 0px 32px 0px;
-  img{
+    img{
     max-width: 100%;
     width: 48px;
   }
-  
-  
+   
 }
 
 .footer-box{
@@ -29,10 +27,7 @@ footer{
   .footer-contant-box{
 
     p{
-      font-size: 36px;
-      line-height: 54px;
       margin-left: 22px;
-      
     }
   }
 }
@@ -69,7 +64,7 @@ footer{
 
 
 // rwd
-@include phone{
+@include mobie{
   footer{
     .container{
       padding: 24px 16px;

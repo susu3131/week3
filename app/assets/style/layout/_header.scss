@@ -12,9 +12,7 @@ header{
 
 nav{
   a{
-    font-size: 20px;
-    line-height: 30px;
-    padding: 25px 0;
+        padding: 25px 0;
   }
   a:hover{
     animation: text 0.8s 1; 
@@ -35,7 +33,7 @@ nav{
 }
 
 
-@include phone{
+@include mobie{
   header{
     .flex-jcsb{
       flex-direction: column;
